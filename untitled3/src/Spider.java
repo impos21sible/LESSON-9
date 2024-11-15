@@ -1,12 +1,9 @@
 public class Spider extends Pet{
-    @Override
-    public void giveVoice() {
+    protected Spider() {
+        super(8,"шшш");
 
     }
 
-    @Override
-    public int getPowsCount() {
-        int powsCount = 8;
-        return powsCount;
-    }
+
+
 }

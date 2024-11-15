@@ -1,5 +1,13 @@
 public abstract class Pet {
     private int powsCount;
+    private String voice;
+
+    protected Pet(int powsCount,String voice) {
+        this.powsCount = powsCount;
+        this.voice = voice;
+    }
+
+
     public void sleep(){
         System.out.println("Сплю");
     }
@@ -12,19 +20,15 @@ public abstract class Pet {
         System.out.println("Играю");
     }
 
-    public abstract void giveVoice();
-
-    public void catchMouse(){
-        System.out.println("Поймала мышку !");
+    public  void    giveVoice(){
+        System.out.println(voice);
     }
 
-    public void hideFood(){
-        System.out.println("Вся еда - в щечках !");
-    }
 
-    public void bringStick(){
-        System.out.println("Принёс палочку, как хороший мальчик!");
-    }
+
+
+
+
 
 
 

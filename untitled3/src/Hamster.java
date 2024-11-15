@@ -1,7 +1,9 @@
 public class Hamster extends Pet {
-    @Override
-    public void giveVoice() {
+    protected Hamster() {
+        super(4,"шшш");
+    }
 
-
+    public void hideFood(){
+        System.out.println("Вся еда - в щечках !");
     }
 }

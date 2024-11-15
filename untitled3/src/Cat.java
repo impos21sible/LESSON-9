@@ -1,8 +1,13 @@
 public class Cat extends Pet {
 
-    @Override
-    public void giveVoice() {
-        System.out.println("Мяу");
 
+    protected Cat() {
+        super(4, "мяу");
+
+    }
+
+
+    public void catchMouse(){
+        System.out.println("Поймала мышку !");
     }
 }

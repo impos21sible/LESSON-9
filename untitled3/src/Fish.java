@@ -1,6 +1,7 @@
 public class Fish extends Pet{
-    @Override
-    public void giveVoice() {
-
+    protected Fish() {
+        super(0,"молчание");
     }
+
+
 }
