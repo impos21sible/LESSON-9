@@ -1,4 +1,4 @@
-public class Square extends  Parallelogram {
+public class Square extends  Parallelogram implements Figure {
     private final double a;
 
     public Square(double a) {
