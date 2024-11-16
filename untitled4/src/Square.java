@@ -1,14 +1,8 @@
-public class Square extends  Parallelogram implements Figure {
-    private final double a;
+public class Square extends  Parallelogram  {
+
 
     public Square(double a) {
-        this.a = a;
-    }
-
-
-    @Override
-    public double getArea() {
-        return a*a;
+        super(a,a);
     }
 
 }
